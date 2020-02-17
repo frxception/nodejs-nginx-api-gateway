@@ -1,0 +1,21 @@
+{
+  "name": "nodecommand-nginx-gitlab",
+  "version": "1.0.0",
+  "description": "\"Nodejs-NginxasApiGateway\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://gitlab.com/patelrohan/nodejs-nginxapigateway.git\""
+  },
+  "author": "\"Rohan\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2"
+  }
+}
